@@ -42,6 +42,7 @@ namespace AlgorithmPrograms
                     case 6:
                         CustomizeDetails customizeDetails = new CustomizeDetails();
                         customizeDetails.Customize();
+                    case 7:
                         break;
                         UnOrderList unOrderList = new UnOrderList();
                         unOrderList.ReadFile(@"C:\Users\VISESH\Documents\bl excercise\AlgorithmProgram\AlgorithmPrograms\DataStructureProblems\UnOrderList.cs");
