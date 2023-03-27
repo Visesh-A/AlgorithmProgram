@@ -3,7 +3,7 @@ using AlgorithmPrograms.BinarySearch;
 using AlgorithmPrograms.BubbleSort;
 using AlgorithmPrograms.CustomizeMessage;
 using AlgorithmPrograms.DataStructureProblems;
-using AlgorithmPrograms.DataStructureProblems.BalancedParentheses;
+
 using AlgorithmPrograms.InsertionSort;
 using System;
 namespace AlgorithmPrograms
@@ -17,7 +17,7 @@ namespace AlgorithmPrograms
             {
                 Console.WriteLine("\nChoose Option to perform\n1.Binary Search for Word \n2.Insertion Sort \n3.Bubble sort " +
                    "\n4.Anagram \n5.Prime Range NUmber \n6.Customize Message \n7.UnOrder List(Data Structure Problems)" +
-                   " \n8.Ordered List \n9.Balanced Parentheses \n10.Exit");
+                   " \n8.Ordered List \n9.Exit");
                 int option = Convert.ToInt32(Console.ReadLine());
                 switch (option)
                 {
@@ -53,11 +53,8 @@ namespace AlgorithmPrograms
                         OrderedList orderedList = new OrderedList();
                         orderedList.ReadFile(@"C:\Users\VISESH\Documents\bl excercise\AlgorithmProgram\AlgorithmPrograms\DataStructureProblems\OrderedList.cs");
                         break;
+                    
                     case 9:
-                        BalancedOpeartion balanced = new BalancedOpeartion();
-                        balanced.ReadFile(@"C:\Users\VISESH\Documents\bl excercise\AlgorithmProgram\AlgorithmPrograms\DataStructureProblems\BalancedParantheses\File.txt");
-                        break;
-                    case 10:
                         flag = false;
                         break;
                 }
