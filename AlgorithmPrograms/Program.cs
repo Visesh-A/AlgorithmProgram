@@ -4,6 +4,7 @@ using AlgorithmPrograms.BubbleSort;
 using AlgorithmPrograms.CustomizeMessage;
 using AlgorithmPrograms.DataStructureProblems;
 using AlgorithmPrograms.DataStructureProblems.BalancedParentheses;
+using AlgorithmPrograms.DataStructureProblems.BankingCashCounter;
 using AlgorithmPrograms.InsertionSort;
 using System;
 namespace AlgorithmPrograms
@@ -16,8 +17,8 @@ namespace AlgorithmPrograms
             while (flag)
             {
                 Console.WriteLine("\nChoose Option to perform\n1.Binary Search for Word \n2.Insertion Sort \n3.Bubble sort " +
-                   "\n4.Anagram \n5.Prime Range NUmber \n6.Customize Message \n7.UnOrder List(Data Structure Problems)" +
-                   " \n8.Ordered List \n9.Balanced Parentheses \n10.Exit");
+                     "\n4.Anagram \n5.Prime Range NUmber \n6.Customize Message \n7.UnOrder List(Data Structure Problems)" +
+                     " \n8.Ordered List \n9.Balanced Parentheses \n10.Banking cash Counter \n11.Exit");
                 int option = Convert.ToInt32(Console.ReadLine());
                 switch (option)
                 {
@@ -58,6 +59,10 @@ namespace AlgorithmPrograms
                         balanced.ReadFile(@"C:\Users\VISESH\Documents\bl excercise\AlgorithmProgram\AlgorithmPrograms\DataStructureProblems\BalancedParantheses\File.txt");
                         break;
                     case 10:
+                        BankingOpeartion bankingOpeartion = new BankingOpeartion();
+                        bankingOpeartion.Opeartion();
+                        break;
+                    case 11:
                         flag = false;
                         break;
                 }
