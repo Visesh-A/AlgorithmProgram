@@ -5,6 +5,7 @@ using AlgorithmPrograms.CustomizeMessage;
 using AlgorithmPrograms.DataStructureProblems;
 using AlgorithmPrograms.InsertionSort;
 using System;
+
 namespace AlgorithmPrograms
 {
     class Program
@@ -43,6 +44,7 @@ namespace AlgorithmPrograms
                         CustomizeDetails customizeDetails = new CustomizeDetails();
                         customizeDetails.Customize();
                         break;
+                    case 7:
                         UnOrderList unOrderList = new UnOrderList();
                         unOrderList.ReadFile(@"C:\Users\VISESH\Documents\bl excercise\AlgorithmProgram\AlgorithmPrograms\DataStructureProblems\UnOrderList.cs");
                         break;
@@ -54,4 +56,4 @@ namespace AlgorithmPrograms
 
         }
     }
-}
+}  
