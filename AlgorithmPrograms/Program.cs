@@ -36,8 +36,8 @@ namespace AlgorithmPrograms
                         anagram.CheckAnagram();
                         break;
                     case 5:
-                       PrimeNumberRange primeNumberRange = new PrimeNumberRange();
-                       primeNumberRange.PrimeRange();
+                        PrimeNumberRange primeNumberRange = new PrimeNumberRange();
+                        primeNumberRange.PrimeRange();
                         break;
                     case 6:
                         CustomizeDetails customizeDetails = new CustomizeDetails();
@@ -45,13 +45,9 @@ namespace AlgorithmPrograms
                         break;
                     case 7:
                         UnOrderList unOrderList = new UnOrderList();
-                        unOrderList.ReadFile(@"C:\Users\VISESH\Documents\bl excercise\AlgorithmProgram\AlgorithmPrograms\DataStructureProblems\File.txt");
+                        unOrderList.ReadFile(@"C:\Users\VISESH\Documents\bl excercise\AlgorithmProgram\AlgorithmPrograms\DataStructureProblems\UnOrderList.cs");
                         break;
                     case 8:
-                        OrderedList orderedList = new OrderedList();
-                        orderedList.ReadFile(@"C:\Users\VISESH\Documents\bl excercise\AlgorithmProgram\AlgorithmPrograms\DataStructureProblems\File1.txt");
-                        break;
-                    case 9:
                         flag = false;
                         break;
                 }
@@ -59,4 +55,4 @@ namespace AlgorithmPrograms
 
         }
     }
-} 
+}
